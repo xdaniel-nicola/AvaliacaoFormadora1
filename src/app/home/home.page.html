@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Avaliação Formadora I
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +14,18 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-card>
+      <img alt="Silhouette of mountains" src="../../assets/icon/foto.png" />
+        <ion-card-header>
+          <ion-card-subtitle>Nome:</ion-card-subtitle>
+          <ion-card-title>Daniel Nicola Lima Castelo Branco</ion-card-title>
+          <ion-card-subtitle>Turma:</ion-card-subtitle>
+          <ion-card-title>PAS23103</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-button [routerLink]="['/sobre']" expand="block">Sobre mim</ion-button>
+        </ion-card-content>
+      </ion-card>
   </div>
 </ion-content>
